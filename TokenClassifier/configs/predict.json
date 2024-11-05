@@ -1,0 +1,7 @@
+{
+    "model" : "models/3_camembert-base",
+    "predict_path" : "../data/test.json",
+    "results_path" : "predictions",
+    "batch_size" : 8,
+    "max_length" : 300
+}

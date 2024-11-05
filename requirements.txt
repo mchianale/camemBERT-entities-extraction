@@ -1,0 +1,5 @@
+tqdm
+faker
+pandas
+geopy 
+numpy

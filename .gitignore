@@ -1,0 +1,9 @@
+data/test.json
+data/train.json
+./data
+generator/__pycache__
+gold_metrics/gold_metrics/__pycache__
+gold_metrics/gold_metrics.egg-info
+TokenClassifier/model/__pycache__
+models
+TokenClassifier/.DS_Store
