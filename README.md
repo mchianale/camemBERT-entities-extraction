@@ -37,8 +37,10 @@ To achieve the goal of extracting these entities, the following steps were taken
      - `self.fc1 = nn.Linear(input_dim, hidden_dim)`: The first fully connected layer.
      - `self.fc2 = nn.Linear(hidden_dim, output_dim)`: The second fully connected layer that outputs the predicted class for each token.
      - `self.dropout = nn.Dropout(dropout_prob)`: A dropout layer to avoid overfitting during training.
+
   
-   - **Exemple of TokenCLassifier (here BERT):**
+   - **Exemple of TokenCLassifier (here BERT)**:
+     
       ![Token Classification](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/token_classification.png)   
        **Token Labeling Convention**
        - **0**: Represents negative cases (i.e., tokens that are not part of any entity).
