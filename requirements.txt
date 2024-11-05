@@ -3,3 +3,7 @@ faker
 pandas
 geopy 
 numpy
+# NLP and Machine Learning
+torch 
+transformers 
+sentencepiece
