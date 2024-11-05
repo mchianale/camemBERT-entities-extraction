@@ -29,16 +29,16 @@ The goal is to extract the following entities from a given French text related t
 To achieve the goal of extracting these entities, the following steps were taken:
 
 1. **Data Generation**: 
-   - A synthetic data generator was created to generate artificial loan application texts. This data was used to train the model before applying it to real-world data. **see**
+   - A synthetic data generator was created to generate artificial loan application texts. This data was used to train the model before applying it to real-world data. **[see folder](https://github.com/mchianale/camemBERT-entities-extraction/tree/main/generator)**
    
 2. **Fine-Tuning Camembert**: 
-   - The Camembert model, which is a pre-trained French language model, was fine-tuned to classify tokens into the above entities. A token classification architecture was used, with a fully connected layer (FC1) and a dropout layer to reduce overfitting. **see**
+   - The Camembert model, which is a pre-trained French language model, was fine-tuned to classify tokens into the above entities. A token classification architecture was used, with a fully connected layer (FC1) and a dropout layer to reduce overfitting. **[see folder](https://github.com/mchianale/camemBERT-entities-extraction/tree/main/TokenClassifier)**
    - **Model Architecture**:
      - `self.fc1 = nn.Linear(input_dim, hidden_dim)`: The first fully connected layer.
      - `self.fc2 = nn.Linear(hidden_dim, output_dim)`: The second fully connected layer that outputs the predicted class for each token.
      - `self.dropout = nn.Dropout(dropout_prob)`: A dropout layer to avoid overfitting during training.
 
-    ![Token Classification](image/token_classification.png)
+    ![Token Classification](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/token_classification.png)
     
     **Token Labeling Convention**
     - **0**: Represents negative cases (i.e., tokens that are not part of any entity).
@@ -55,6 +55,7 @@ To achieve the goal of extracting these entities, the following steps were taken
      - **Precision**: Measures the proportion of relevant instances among the retrieved instances.
      - **Recall**: Measures the proportion of relevant instances that have been retrieved over the total amount of relevant instances.
      - **F1 Score**: A balanced measure that combines both precision and recall into one number.
+   - **[see package gold_metrics](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/gold_metrics/README.md)**
 
 ## Requirement
 **Dependencies :**
