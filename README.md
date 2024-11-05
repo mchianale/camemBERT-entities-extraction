@@ -3,6 +3,22 @@
 ## Overview
 This repository focuses on fine-tuning the Camembert language model for extracting specific entities related to real estate loan requests from French texts. The task involves identifying various entities from loan applications, such as user personal details, financial information, and property-related data. These entities are extracted from the text and classified into corresponding labels.
 
+## Table of Contents
+- [Task Description](#task-description)
+- [Entities to Extract](#entities-to-extract)
+- [Methodology](#methodology)
+ - [Data Generation](#data-generation)
+ - [Fine-Tuning Camembert](#fine-tuning-camembert)
+ - [Model Evaluation](#model-evaluation)
+- [Requirement](#requirement)
+- [Create Data](#create-data)
+- [Train](#train)
+- [Evaluation](#evaluation)
+- [Prediction](#prediction)
+- [Result](#result)
+- [Conclusion](#conclusion)
+- [Citation](#citation)
+    
 ## Task Description
 The goal is to extract the following entities from a given French text related to real estate loan applications. The task is formulated as a token classification problem, where each token in the text is classified into one of the predefined categories.
 
