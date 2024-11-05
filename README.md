@@ -6,6 +6,8 @@ This repository focuses on fine-tuning the Camembert language model for extracti
 ## Task Description
 The goal is to extract the following entities from a given French text related to real estate loan applications. The task is formulated as a token classification problem, where each token in the text is classified into one of the predefined categories.
 
+The primary issue encountered during the development of this project was the lack of sufficient real-world data for training and evaluating the model. To address this, I generated fake data using several Python libraries. However, despite the efforts made to create diverse and representative examples, the generated data ultimately did not provide enough variability. This limitation can affect the model's performance and generalization to real-world scenarios, as the lack of diverse training examples may lead to overfitting on the synthetic data.
+
 ## Entities to Extract
 
 | Entity Name               | Description                      |
