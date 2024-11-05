@@ -37,15 +37,16 @@ To achieve the goal of extracting these entities, the following steps were taken
      - `self.fc1 = nn.Linear(input_dim, hidden_dim)`: The first fully connected layer.
      - `self.fc2 = nn.Linear(hidden_dim, output_dim)`: The second fully connected layer that outputs the predicted class for each token.
      - `self.dropout = nn.Dropout(dropout_prob)`: A dropout layer to avoid overfitting during training.
-
-![Token Classification](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/token_classification.png)   
-    **Token Labeling Convention**
-    - **0**: Represents negative cases (i.e., tokens that are not part of any entity).
-    - **B-**: A token marking the beginning of an entity (e.g., the first token of the entity "user_mail").
-    - **I-**: A token that comes after the beginning token of an entity (e.g., subsequent tokens of the entity "user_mail").
-    For example:
-    - **B-user_mail**: Marks the beginning of a user's email address.
-    - **I-user_mail**: Marks the continuation of the user's email address.
+  
+   - **Exemple of TokenCLassifier (here BERT):**
+      ![Token Classification](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/token_classification.png)   
+       **Token Labeling Convention**
+       - **0**: Represents negative cases (i.e., tokens that are not part of any entity).
+       - **B-**: A token marking the beginning of an entity (e.g., the first token of the entity "user_mail").
+       - **I-**: A token that comes after the beginning token of an entity (e.g., subsequent tokens of the entity "user_mail").
+       For example:
+       - **B-user_mail**: Marks the beginning of a user's email address.
+       - **I-user_mail**: Marks the continuation of the user's email address.
    
 3. **Model Evaluation**:
    - Evaluation of the fine-tuned model was performed using precision, recall, and F1 score to ensure the model's effectiveness in extracting entities accurately from loan application texts.
