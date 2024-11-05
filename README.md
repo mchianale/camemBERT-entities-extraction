@@ -202,4 +202,19 @@ Prediction config example :
 *An entity is considered correct if both the type and the position of the entity are correctly predicted (based on a threshold for the position).*
 
 - Threshold : **80%**
+
+---
+
+**Conclusion :**
+
+The results indicate an exceptionally high performance in terms of precision, recall, and F1 score. However, it is important to note that these results may not be entirely indicative of the model's robustness. The lack of data variability significantly influenced the outcomes, as the generated dataset did not encompass a wide range of scenarios. Consequently, while the metrics suggest that the model performs well, they may not accurately reflect its performance in real-world applications due to the insufficient variability in the training data.
+
+## Citation
+
+---
+
+- [CamemBERT](https://arxiv.org/pdf/1911.03894)
+
+---
+
  
