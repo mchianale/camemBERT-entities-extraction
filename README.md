@@ -107,7 +107,7 @@ train_path = 'data/train.json'
 test_path = 'data/test.json'  
 ```
 
-See a **[sample data](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/sample.json) use for train.
+See a **[sample data](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/sample.json)** use for train.
 
 ## Train
 ```bash
