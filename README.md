@@ -71,9 +71,12 @@ To achieve the goal of extracting these entities, the following steps were taken
 3. **Model Evaluation**:
    - Evaluation of the fine-tuned model was performed using precision, recall, and F1 score to ensure the model's effectiveness in extracting entities accurately from loan application texts.
    - Various evaluation metrics were employed, including:
-     - **Precision**: Measures the proportion of relevant instances among the retrieved instances.
-     - **Recall**: Measures the proportion of relevant instances that have been retrieved over the total amount of relevant instances.
-     - **F1 Score**: A balanced measure that combines both precision and recall into one number.
+     - **Precision**: Measures the accuracy of the predicted entities or relations.
+     - **Recall**: Measures how well the model captures the true entities or relations.
+     - **F1 Score**: Harmonic mean of Precision and Recall, providing a single measure of the model's performance.
+    - Additionally, the following values are returned globally:
+     - **Average**: The average of the Precision, Recall, and F1 scores across all types.
+     - **Micro**: A micro-average of Precision, Recall, and F1 scores, which aggregates the true positives, false positives, and false negatives across all types before calculating the metrics.
    - **[see package gold_metrics](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/gold_metrics/README.md)**
 
 ## Requirement
