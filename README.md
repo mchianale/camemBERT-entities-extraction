@@ -107,6 +107,8 @@ train_path = 'data/train.json'
 test_path = 'data/test.json'  
 ```
 
+See a **[sample data](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/sample.json) use for train.
+
 ## Train
 ```bash
 cd TokenClassifier
@@ -146,6 +148,9 @@ Train config example :
 - **learning_rate**: This parameter sets the learning rate for the Camembert model during fine-tuning.
 - **new_learning_rate**: This parameter sets the learning rate for the Feedforward Neural Network (FFN) used for token classification.
 
+**Can generalize:**
+- No need to specify `entity types` explicitly; it will infer them from the training data during the model training process.
+  
 ## Evaluation
 ```bash
 cd TokenClassifier
