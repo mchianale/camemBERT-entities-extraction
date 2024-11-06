@@ -209,6 +209,11 @@ Prediction config example :
 
 ---
 
+**Train loss :**
+![train_loss](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/train.png)
+
+---
+
 **Result :**
 
 | Micro-Precision | Micro-Recall | Micro-F1 | Total Entities |
