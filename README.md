@@ -209,6 +209,7 @@ Prediction config example :
 ---
 
 **Train data size :** 2000
+**Test data size :** 5000
 
 ---
 
@@ -218,7 +219,7 @@ Prediction config example :
 
 ---
 
-**Result :**
+**Result : (test data)**
 
 | Micro-Precision | Micro-Recall | Micro-F1 | Total Entities |
 |:---------------:|:------------:|:---------:|:-------------:|
