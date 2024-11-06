@@ -210,6 +210,7 @@ Prediction config example :
 ---
 
 **Train loss :**
+
 ![train_loss](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/image/train.png)
 
 ---
