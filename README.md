@@ -74,7 +74,7 @@ To achieve the goal of extracting these entities, the following steps were taken
      - **Precision**: Measures the accuracy of the predicted entities or relations.
      - **Recall**: Measures how well the model captures the true entities or relations.
      - **F1 Score**: Harmonic mean of Precision and Recall, providing a single measure of the model's performance.
-    - Additionally, the following values are returned globally:
+   - Additionally, the following values are returned globally:
      - **Average**: The average of the Precision, Recall, and F1 scores across all types.
      - **Micro**: A micro-average of Precision, Recall, and F1 scores, which aggregates the true positives, false positives, and false negatives across all types before calculating the metrics.
    - **[see package gold_metrics](https://github.com/mchianale/camemBERT-entities-extraction/blob/main/gold_metrics/README.md)**
