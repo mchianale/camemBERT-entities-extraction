@@ -1,7 +1,10 @@
 # Fine-Tuning Camembert for Real Estate Loan Entity Extraction
 **the trained model :** [Camembert-for-Real-Estate-Loan-Entity-Extraction-fr](https://huggingface.co/mchianale/Camembert-for-Real-Estate-Loan-Entity-Extraction-fr/tree/main/3_camembert-base).
+
+Global project where I used this model : [
 ## Overview
 This repository focuses on fine-tuning the Camembert language model for extracting specific entities related to real estate loan requests from French texts. The task involves identifying various entities from loan applications, such as user personal details, financial information, and property-related data. These entities are extracted from the text and classified into corresponding labels.
+
 
 ## Table of Contents
 - [Task Description](#task-description)
