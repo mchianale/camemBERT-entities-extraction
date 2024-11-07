@@ -1,5 +1,5 @@
-# Fine-Tuning Camembert for Real Estate Loan Entity Extraction
-**the trained model :** [Camembert-for-Real-Estate-Loan-Entity-Extraction-fr](https://huggingface.co/mchianale/Camembert-for-Real-Estate-Loan-Entity-Extraction-fr/tree/main/3_camembert-base).
+# Fine-Tuning Camembert for Real Estate Loan Entity Extraction (France)
+**the trained model :** [Camembert-for-Real-Estate-Loan-Entity-Extraction-fr](https://huggingface.co/mchianale/Camembert-for-Real-Estate-Loan-Entity-Extraction-fr/tree/main/3_camembert-base). 
 
 Global project where I used this model : [Real estate loan application Service](https://github.com/mchianale/loan_request_application)
 ## Overview
